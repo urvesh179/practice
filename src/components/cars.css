@@ -1,0 +1,30 @@
+.carContainer{
+    width: 100%;
+    position: relative;
+    z-index: -1;
+}
+.carContainer img{
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.carContainer .inner-data{
+    display: flex;
+}
+.carContainer .inner-data .i-d{
+    position: absolute;
+    z-index: 1;
+    color: white;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    width: 43%;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+.carContainer .inner-data .i-d h1{
+    font-size: 3rem;
+    color: white;
+    line-height: .5;
+}

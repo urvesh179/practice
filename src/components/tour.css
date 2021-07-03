@@ -1,0 +1,88 @@
+.tourContainer{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: white;
+}
+.tourwrap{
+    width: 70%;
+    height: auto;
+    /* border: 1px solid white; */
+    margin: auto;
+    padding: 10px 2px 30px 2px;
+}
+.Ttitle{
+    padding: 50px 0;
+    text-align: center;
+    line-height: 1;
+    font-size: 20px;
+}
+.Tinput{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: auto;
+}
+.Tinput input{
+    border: none;
+    border-bottom: 1px solid lightgray;
+    padding: 10px 5px;
+}
+.Tinput .sol1{
+    position: absolute; 
+    margin: 4px 0px 0px 88px
+}
+.Tinput .sol2{
+    position: absolute; 
+    margin: 47px 0px 0px 88px
+}
+.Tinput Button{
+    width: 6rem;
+    height: 30px;
+}
+.Tplace{
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    color: black;
+    margin-bottom: 80px;
+}
+.Tplace .place{
+    width: 32%;
+    height: 350px;
+    background-color: white;
+}
+.Tplace img{
+    width: 100%;
+    height: 160px;
+}
+.Tplace .inner-place{
+    width: 98%;
+    margin: auto;
+    padding: 10px;
+}
+.Tplace  p{
+    margin: 16px 0;
+}
+.Tplace  Button{
+    background-color: black;
+    color: white;
+    border: none;
+    margin-top: 10px;
+}
+@media screen and (max-width: 767px){
+    .tourwrap{
+        width: 95%;
+    }
+    .Tplace{
+        flex-direction: column;
+    }
+    .Tplace .place{
+        width: 100%;
+        margin-top: 20px;
+    }
+}

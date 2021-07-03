@@ -1,0 +1,77 @@
+/* 
+*{
+    font-size: 15px;
+    font-weight: 500;
+}
+a{
+    color: white;
+} */
+.header-container{
+    position: fixed;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 15px 25px 5px 30px;
+    z-index: 2;
+}
+.links .ul{
+    display: flex;
+    align-items: center;
+}
+.links .ul li{
+    padding: 0 30px;
+}
+.links .ul li a{
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+.anticon .anticon-menu .anticon svg{
+    display: none;
+}
+.logs{
+    background-color: transparent;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 4rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inne-logo{
+    font-size: 15px;
+    font-weight: 500;
+}
+.menu{
+    display: none;
+}
+@media screen and (max-width: 767px){
+    /* .links .ul{
+        display: none;
+    } */
+    .links ul li:not(:first-child) {display: none;}
+    .search{
+        display: none;
+    }
+    .menu{
+        display: inline-block;
+    }
+    .mbdesign .ul{
+        /* display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left; */
+        flex-direction: column;
+    }
+    .mbdesign .ul li:not(:first-child){
+        display: block;
+        padding: 8px 0px;
+    }
+}

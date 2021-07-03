@@ -1,0 +1,19 @@
+.f-container{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.f-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.f-container a{
+    font-size: 30px;
+    padding: 1px 5px;
+    text-decoration: none;
+    color: gray;
+}
